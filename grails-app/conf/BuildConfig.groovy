@@ -6,6 +6,9 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
+// The Grails Quartz plugin dir
+grails.plugin.location.quartz = '../grails-quartz'
+
 // uncomment (and adjust settings) to fork the JVM to isolate classpaths
 //grails.project.fork = [
 //   run: [maxMemory:1024, minMemory:64, debug:false, maxPerm:256]
