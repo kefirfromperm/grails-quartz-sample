@@ -17,6 +17,6 @@ class CustomJob {
     SampleService sampleService
 
     def execute(context){
-        log.info(sampleService.logExecuting(context))
+        log.info(sampleService.logExecution(context))
     }
 }
