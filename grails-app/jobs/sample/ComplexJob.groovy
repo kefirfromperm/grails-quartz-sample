@@ -4,6 +4,7 @@ import org.quartz.impl.triggers.CalendarIntervalTriggerImpl
 import static org.quartz.DateBuilder.IntervalUnit.*
 
 /**
+ * The job with three triggers.
  *
  * @author Vitalii Samolovskikh aka Kefir
  */

@@ -5,6 +5,7 @@ import org.quartz.impl.triggers.CalendarIntervalTriggerImpl
 import static org.quartz.DateBuilder.IntervalUnit.*
 
 /**
+ * The job with custom trigger. This example uses the standard quartz trigger CalendarIntervalTriggerImpl.
  *
  * @author Vitalii Samolovskikh aka Kefir
  */

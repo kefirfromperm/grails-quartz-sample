@@ -1,6 +1,7 @@
 package sample
 
 /**
+ * The job with cron trigger.
  *
  * @author Vitalii Samolovskikh aka Kefir
  */

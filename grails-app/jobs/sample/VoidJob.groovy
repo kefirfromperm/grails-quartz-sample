@@ -1,6 +1,7 @@
 package sample
 
 /**
+ * The job without triggers.  It can be started by hand.
  *
  * @author Vitalii Samolovskikh aka Kefir
  */
