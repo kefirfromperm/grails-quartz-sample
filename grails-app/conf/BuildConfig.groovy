@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.22'
 
         // It is needed only if the quartz plugin was linked with location
-        compile("org.quartz-scheduler:quartz:2.1.7")
+        compile("org.quartz-scheduler:quartz:2.2.0")
     }
 
     plugins {
