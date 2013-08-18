@@ -22,7 +22,7 @@ grails.project.dependency.resolution = {
     }
     log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
-    legacyResolve false // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
+    //legacyResolve false // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
 
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
@@ -47,13 +47,14 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.22'
 
         // It is needed only if the quartz plugin was linked with location
-        compile("org.quartz-scheduler:quartz:2.2.0")
+        //compile("org.quartz-scheduler:quartz:2.2.0")
     }
 
     plugins {
+        //compile ":h2:0.2.6"
         runtime ":hibernate:$grailsVersion"
-        runtime ":jquery:1.8.3"
-        runtime ":resources:1.1.6"
+        //runtime ":jquery:1.8.3"
+        //runtime ":resources:1.1.6"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
@@ -64,6 +65,6 @@ grails.project.dependency.resolution = {
 
         //runtime ":database-migration:1.3.2"
 
-        compile ':cache:1.0.1'
+        //compile ':cache:1.0.1'
     }
 }
