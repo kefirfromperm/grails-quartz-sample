@@ -52,7 +52,7 @@ grails.project.dependency.resolution = {
 
     plugins {
         //compile ":h2:0.2.6"
-        runtime ":hibernate:3.6.10.1"
+        runtime ":hibernate:2.0.0"
         //runtime ":jquery:1.8.3"
         //runtime ":resources:1.1.6"
 
@@ -61,7 +61,7 @@ grails.project.dependency.resolution = {
         //runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.5"
 
-        build ":tomcat:7.0.42"
+        build ":tomcat:2.0.0"
 
         //runtime ":database-migration:1.3.2"
 
