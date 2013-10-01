@@ -90,6 +90,7 @@ log4j = {
            'net.sf.ehcache.hibernate'
 
     info 'grails.app.jobs'
+    debug 'grails.plugins.quartz'
 }
 
 // Uncomment and edit the following lines to start using Grails encoding & escaping improvements
