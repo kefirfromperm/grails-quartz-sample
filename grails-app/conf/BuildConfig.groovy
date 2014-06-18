@@ -7,7 +7,7 @@ grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 // The Grails Quartz plugin dir
-grails.plugin.location.quartz = '../grails-quartz'
+//grails.plugin.location.quartz = '../grails-quartz'
 
 // uncomment (and adjust settings) to fork the JVM to isolate classpaths
 //grails.project.fork = [
@@ -52,8 +52,8 @@ grails.project.dependency.resolution = {
 
     plugins {
         //compile ":h2:0.2.6"
-        runtime ":hibernate:2.0.0"
-        //runtime ":hibernate:3.6.10.1"
+        //runtime ":hibernate:2.0.0"
+        runtime ":hibernate:3.6.10.15"
         //runtime ":jquery:1.8.3"
         //runtime ":resources:1.1.6"
 
@@ -62,8 +62,9 @@ grails.project.dependency.resolution = {
         //runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.5"
 
-        build ":tomcat:2.0.0"
-        //build ":tomcat:7.0.42"
+        compile ':quartz:1.0.1'
+        //build ":tomcat:2.0.0"
+        build ":tomcat:7.0.53"
 
         //runtime ":database-migration:1.3.2"
 
